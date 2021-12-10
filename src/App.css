@@ -33,7 +33,6 @@ p.start-indent {
 }
 
 p.hanging-indent {
-  padding-left: 50px ;
+  /*padding-left: 50px ;*/
   text-indent: -50px ;
 }
-

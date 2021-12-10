@@ -3,11 +3,12 @@ import React from 'react';
 const WorksCited = () => {
   return(
       <>
-        <div className={'row mt-3 no-gutters'}>
-          <div className={'col-2'}></div>
-          <div className={'col-8'}>
+        <h1 className={'text-center mt-3'}>Works Cited</h1>
 
-            <h1 className={'text-center'}>Works Cited</h1>
+        <div className={'row m-0 no-gutters'}>
+          <div className={'col-3'}></div>
+          <div className={'col-6'}>
+
             <p className={'hanging-indent'}>Gladman, Renee. “Fictional Knowing.” Am I a Fiction?
               Bagley Wright Lecture Series.  Arizona State University,
               4 Nov. 2021. Lecture.
@@ -15,7 +16,7 @@ const WorksCited = () => {
 
           </div>
 
-          <div className={'col-2'}></div>
+          <div className={'col-3'}></div>
 
 
         </div>
