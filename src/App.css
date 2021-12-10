@@ -1,16 +1,39 @@
-p, h1, a, label, span{
+p, h1, h2, h3, h4, h5, h6, a, label, span{
   font-family: 'Amiri', serif;
-
 }
 
-a {
-
+.content-name {
   text-decoration: none;
   color: black;
   font-size: 18px;
+}
+
+.poem-name {
   font-style: italic;
 }
 
-a:hover {
-  color: #4f5050;
+a {
+  text-decoration: none;
 }
+
+a:hover h5 {
+  color: green;
+}
+
+.title:hover:after {
+  color: green;
+  content:  " (Man by Machine)";
+}
+p {
+  font-size: 18px;
+
+}
+p.start-indent {
+  text-indent: 50px;
+}
+
+p.hanging-indent {
+  padding-left: 50px ;
+  text-indent: -50px ;
+}
+
