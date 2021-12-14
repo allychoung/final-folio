@@ -39,13 +39,15 @@ const Poem3 = () => {
             <br/><hr/>
             <h4>2: Anatomy of a Girl</h4>
             <code>
-              void (* f_arr[]) (int) = 	&#123;turn, stutter, folly, haunt, swim, laugh, wander, embitter};<br/>
+              void (* f_arr[]) (int) = 	&#123;turn, stutter, folly, haunt, swim, laugh,<br/>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;wander, embitter};<br/><br/>
+              void girl(char * argv, const char[] name) 	&#123;<br/><br/>
+              &nbsp;&nbsp;for n in [1..8]:<br/>
+              &nbsp;&nbsp;&nbsp;&nbsp;(* f_arr[n])(0);<br/><br/>
 
-              void girl(char * argv, const char[] name) 	&#123;<br/>
-              for n in [1..8]:<br/>
-              (* f_arr[n])(0);<br/><br/>
-
-              return;<br/>
+              &nbsp;&nbsp;return;<br/>
 
             }<br/><br/><br/>
 

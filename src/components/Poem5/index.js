@@ -18,7 +18,7 @@ const Poem5 = () => {
             Must I tell another story,<br/>
             Another story, another story where<br/>
             I sprout then get beheaded,<br/>
-            Head rolling down the rubble?---<br/><br/>
+            Head rolling down the rubble?&#8212;<br/><br/>
 
             Dear Proctor!<br/>
             When will it be over?<br/>
@@ -43,56 +43,59 @@ const Poem5 = () => {
             <h5>Translation</h5>
             <code>
               class Musings &#123;<br/>
-              o = new O([&#34;lively&#34;, &#34;old&#34;], type: ‘CORPORAL’);<br/>
-              expressionWry = 1;<br/>
-              iterator_follies = fetch(&#34;https://FOLLIES.xml&#34;);<br/>
-              while (iterator_follies.hasNext()) &#123;<br/>
-              response = o.witness_response(iterator_follies.node);<br/><br/>
+              &nbsp;&nbsp;o = new O([&#34;lively&#34;, &#34;old&#34;], type: ‘CORPORAL’);<br/>
+              &nbsp;&nbsp;expressionWry = 1;<br/>
+              &nbsp;&nbsp;iterator_follies = fetch(&#34;https://FOLLIES.xml&#34;);<br/>
+              &nbsp;&nbsp;while (iterator_follies.hasNext()) &#123;<br/>
+              &nbsp;&nbsp;&nbsp;&nbsp;response = o.witness_response(iterator_follies.node);<br/><br/>
 
-              expressionWry = expressionWry || response.type.equals(‘DEER-IN-HEADLIGHTS’);<br/>
-              iterator_follies.next();<br/>
-            }<br/>
+              &nbsp;&nbsp;&nbsp;&nbsp;expressionWry = expressionWry || response.type.equals(‘DEER-IN-HEADLIGHTS’);<br/>
+              &nbsp;&nbsp;&nbsp;&nbsp;iterator_follies.next();<br/>
+              &nbsp;&nbsp;}<br/><br/>
 
-              if (expressionWry) &#123;<br/>
-              throw new UnfathomableOutcome(&#34;Still wry as ever, old corporal!&#34;);<br/>
-            }<br/><br/>
-              while (!o.feelings.contains(‘satisfied’)) &#123;<br/>
-              out.chant(&#34;I sprouted by way of %place &#34;, PLACES[new Random.nextInt(PLACES.length)]);<br/>
-              out.chant(&#34;I was beheaded in %circumstance &#34;, HAPPENINGS[new Random.nextInt(HAPPENINGS.length)]);<br/><br/>
+              &nbsp;&nbsp;if (expressionWry) &#123;<br/>
+              &nbsp;&nbsp;&nbsp;&nbsp;throw new UnfathomableOutcome(&#34;Still wry as ever, old corporal!&#34;);<br/>
+              &nbsp;&nbsp;}<br/><br/>
+              &nbsp;&nbsp;while (!o.feelings.contains(‘satisfied’)) &#123;<br/>
+              &nbsp;&nbsp;&nbsp;&nbsp;out.chant(&#34;I sprouted by way of %place&#34;, <br/>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;PLACES[new Random().nextInt(PLACES.length)]);<br/>
+              &nbsp;&nbsp;&nbsp;&nbsp;out.chant(&#34;I was beheaded in %circumstance&#34;, <br/>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;HAPPENINGS[new Random().nextInt(HAPPENINGS.length)]);<br/><br/>
 
-              Patch rubbleStones;<br/>
-              while(!rubbleStones.frictionHinders(i.acceleration)) &#123;<br/>
-              i.position.x += cabbagePatch.slope.x;<br/>
-              i.position.y += cabbagePatch.slope.y;<br/>
-              i.position.d += cabbagePatch.slope.d;<br/>
-              i.acceleration *= PhysicalConstants.G;<br/>
-              time++;<br/>
-            }<br/><br/>
+              &nbsp;&nbsp;Patch rubbleStones;<br/>
+              &nbsp;&nbsp;while(!rubbleStones.frictionHinders(i.acceleration)) &#123;<br/>
+              &nbsp;&nbsp;&nbsp;&nbsp;i.position.x += cabbagePatch.slope.x;<br/>
+              &nbsp;&nbsp;&nbsp;&nbsp;i.position.y += cabbagePatch.slope.y;<br/>
+              &nbsp;&nbsp;&nbsp;&nbsp;i.position.d += cabbagePatch.slope.d;<br/>
+              &nbsp;&nbsp;&nbsp;&nbsp;i.acceleration *= PhysicalConstants.G;<br/>
+              &nbsp;&nbsp;&nbsp;&nbsp;time++;<br/>
+              &nbsp;&nbsp;}<br/>
 
             }<br/><br/>
 
 
 
               class Administer &#123;<br/>
-              judge = Judge(type: ‘PROCTOR’);<br/>
-              this.implore(judge);<br/>
-              while (fingers.length() != 0) &#123;<br/>
-              fingers = fingers[0, n-1];<br/>
+              &nbsp;&nbsp;judge = Judge(type: ‘PROCTOR’);<br/>
+              &nbsp;&nbsp;this.implore(judge);<br/>
+              &nbsp;&nbsp;while (fingers.length() != 0) &#123;<br/>
+              &nbsp;&nbsp;&nbsp;&nbsp;fingers = fingers[0, n-1];<br/>
+              &nbsp;&nbsp;}<br/><br/>
+
+              &nbsp;&nbsp;if (this.inSea()) &#123;<br/>
+              &nbsp;&nbsp;&nbsp;&nbsp;ensueVoices();<br/>
+              &nbsp;&nbsp;}<br/>
             }<br/><br/>
 
-              if (this.inSea()) &#123;<br/>
-              ensueVoices();<br/>
-            }<br/>
-            }<br/>
-
               class Parting &#123;<br/>
-              for (Field f : this.fields) &#123;<br/>
-              sow-endow(f);<br/>
-              mother.parting[-1] = this;<br/>
-              truth;<br/>
-              (Story) this;<br/>
-            }<br/>
-            }<br/>
+              &nbsp;&nbsp;for (Field f : this.fields) &#123;<br/>
+              &nbsp;&nbsp;&nbsp;&nbsp;sow-endow(f);<br/>
+
+              &nbsp;&nbsp;}<br/><br/>
+              &nbsp;&nbsp;mother.parting[-1] = this;<br/>
+              &nbsp;&nbsp;truth;<br/>
+              &nbsp;&nbsp;(Story) this;<br/>
+            }<br/><br/><br/>
 
 
               </code>

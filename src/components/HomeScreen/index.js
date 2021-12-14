@@ -28,8 +28,8 @@ const HomeScreen = () => {
             <Link to={"/sentience"}>
               <h5 className={'content-name poem-name text-center'}>On Sentience</h5>
             </Link>
-            <Link to={"/vaguely"}>
-              <h5 className={'content-name poem-name text-center'}>Vaguely</h5>
+            <Link to={"/poem-program"}>
+              <h5 className={'content-name poem-name text-center'}>Poem-Program</h5>
             </Link>
             <hr/>
             <Link to={"/arspoetica"}>

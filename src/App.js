@@ -23,7 +23,7 @@ function App() {
           <Route path={"/rabbit"} element={<Poem2/>}> </Route>
           <Route path={"/alanguage"} element={<Poem3/>}> </Route>
           <Route path={"/sentience"} element={<Poem4/>}> </Route>
-          <Route path={"/vaguely"} element={<Poem5/>}> </Route>
+          <Route path={"/poem-program"} element={<Poem5/>}> </Route>
 
           <Route path={"/arspoetica"} element={<ArsPoetica/>}> </Route>
           <Route path={"/workscited"} element={<WorksCited/>}> </Route>
