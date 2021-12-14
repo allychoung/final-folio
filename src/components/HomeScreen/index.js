@@ -22,8 +22,14 @@ const HomeScreen = () => {
             </Link>
             <Link to={"/alanguage"}>
               <h5 className={'content-name poem-name text-center'}>A Language Derived
-                from Things I've Heard Before</h5>
+                From Things I've Heard Before</h5>
 
+            </Link>
+            <Link to={"/sentience"}>
+              <h5 className={'content-name poem-name text-center'}>On Sentience</h5>
+            </Link>
+            <Link to={"/vaguely"}>
+              <h5 className={'content-name poem-name text-center'}>Vaguely</h5>
             </Link>
             <hr/>
             <Link to={"/arspoetica"}>

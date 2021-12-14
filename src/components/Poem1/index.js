@@ -83,8 +83,6 @@ const Poem1 = (index = 1) => {
               Tender moments past<br/>
 
             </p>
-            <hr/>
-            <p>Note: </p>
 
           </div>
 

@@ -10,8 +10,9 @@ const WorksCited = () => {
           <div className={'col-6'}>
 
             <p className={'hanging-indent'}>Gladman, Renee. “Fictional Knowing.” Am I a Fiction?
+              (Three lectures on Invisibility, Fictional Knowing, and Writing-Drawing),
               Bagley Wright Lecture Series.  Arizona State University,
-              4 Nov. 2021. Lecture.
+              4 Nov. 2021, Online. Lecture.
             </p>
 
           </div>

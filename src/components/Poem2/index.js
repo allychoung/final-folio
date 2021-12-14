@@ -11,30 +11,33 @@ const Poem2 = () => {
             <br/>
             <p>
               Open a laptop to whitened skin and chiseled limbs<br/>
-              What more is there to consume?<br/><br/>
+              What more is there&#8212;more for consumption, for touch?
+              <br/><br/>
 
               Infinite images, some bashful, some horrid<br/>
               Shuffle and reveal upon request<br/><br/>
 
               An image of us is tucked away somewhere<br/>
-              I don’t know what to make of it—How many unknown eyes have skimmed me over<br/><br/>
+              I don’t know what to make of it, how many unknown eyes have skimmed me over<br/><br/>
 
               On screens that render me by the bit, my expression fixed<br/>
               Looking out at no one<br/><br/>
 
               I spend a lifetime at a desk. I always have one more to spare<br/>
-              What of it? I succumb to the void, linger and pass the days there<br/><br/>
+              What of it? I succumb to the void, void to linger and pass the days through<br/><br/>
 
               We all have things to say. Spit them out!<br/>
-              The machine translates them to bits and can render them back to meaning, over and over<br/><br/>
+              The machine transcribes them, bit-matter rendered back to meaning, over and over
+              <br/><br/>
 
-              I wonder how everyone can sleep at night knowing<br/>
+              I marvel at how everyone can sleep at night knowing<br/>
               Every bitter moment is neatly stored<br/><br/>
 
               Somewhere thousands of miles away
 
 
             </p>
+            <br/>
 
 
           </div>
