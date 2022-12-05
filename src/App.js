@@ -12,12 +12,13 @@ import Poem4 from "./components/Poem4";
 import Poem5 from "./components/Poem5";
 import ArsPoetica from "./components/ArsPoetica";
 import WorksCited from "./components/WorksCited";
+import Dynamic from "./components/Dynamic";
 
 function App() {
   return (
       <BrowserRouter>
         <Routes>
-          <Route path="/" element={<HomeScreen/>}>
+          <Route path="/" element={<Dynamic/>}>
           </Route>
           <Route path={"/threading"} element={<Poem1/>}> </Route>
           <Route path={"/rabbit"} element={<Poem2/>}> </Route>

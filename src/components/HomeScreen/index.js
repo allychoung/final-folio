@@ -3,6 +3,7 @@ import {Link} from "react-router-dom";
 const HomeScreen = () => {
   return(
       <>
+
         <div className={'row no-gutters m-0'}>
 
           <div className={'col-3 m-0'}></div>
@@ -44,13 +45,8 @@ const HomeScreen = () => {
 
           <div className={'col-3'}></div>
 
-
-
-
-
-
         </div>
-
+        
       </>
   )
 }

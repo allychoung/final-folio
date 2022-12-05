@@ -36,3 +36,42 @@ p.hanging-indent {
   /*padding-left: 50px ;*/
   text-indent: -50px ;
 }
+
+section {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  overflow: hidden;
+  
+}
+
+section div {
+  position: relative;
+  width: 100%;
+  background: green;
+  overflow: hidden;
+}
+/* section div:nth-child(1){
+  position: relative;
+  width: 50%;
+  background: green;
+  overflow: hidden;
+} */
+section div h2 {
+  position: absolute;
+  white-space: nowrap;
+  font-size: 12em;
+  line-height: 100vh;
+  animation: animate 20s linear infinite;
+}
+
+@keyframes animate {
+  0% {
+    transform: translateX(0);
+  }
+
+  100% {
+    transform: translateX(-100%);
+  }
+}
